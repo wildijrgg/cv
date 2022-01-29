@@ -1,9 +1,5 @@
 html,
 body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-
   background: lightskyblue;
 }
 
@@ -15,4 +11,8 @@ body {
 #gifPic {
   border-radius: 20%;
   width: 150px;
+}
+
+#socialPics {
+  width: 60px;
 }
