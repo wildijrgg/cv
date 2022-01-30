@@ -107,4 +107,15 @@ button {
   #contactImg {
     width: 50px !important;
   }
+
+  #footerLinks{
+    font-size: 15px !important;
+    text-align: center !important;
+    color: #ffff
+  }
+
+  a{
+    color: #ffff;
+    text-decoration: none;
+  }
 }
