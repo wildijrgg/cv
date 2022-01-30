@@ -1,0 +1,80 @@
+html,
+body {
+  font-family: "Nunito", sans-serif;
+  background-image: url("../img/backimg.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+table {
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+  font-family: "Comforter", cursive;
+  letter-spacing: 6px;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  transition: 1s color;
+}
+
+a:hover {
+  color: red;
+}
+
+#avatarPic {
+  border-radius: 100%;
+  width: 200px;
+}
+
+hr {
+  border: 2px inset;
+  width: 90%;
+  border-radius: 30px;
+  border-color: rgba(255, 217, 0, 0.459);
+}
+
+#workTable {
+  color: #fff;
+}
+
+#heading {
+  font-size: 3rem;
+}
+
+#contactImg{
+  width: 100px;
+}
+
+#contactForm{
+  color: #fff;
+}
+
+#labelFooter{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#backImg{
+  width: 50px;
+}
