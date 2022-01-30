@@ -1,18 +1,76 @@
 html,
 body {
+  font-family: Nunito, sans-serif;
+
+  color: #ffff;
+
   background: #ccc;
+  background-image: url("img/back.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
-#avatarPic {
+hr {
+  color: #ffff;
+  border: 1.5px solid #fff;
+  border-radius: 10px;
+  background: #fff;
+  width: 95%;
+}
+
+#headingName {
+  font-family: "Comforter", cursive;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+#avatarImg {
   border-radius: 100%;
   width: 200px;
 }
 
-#gifPic {
-  border-radius: 20%;
-  width: 150px;
+#itemConfig {
+  list-style: none;
+  align-items: center;
+  justify-content: center;
 }
 
-#socialPics {
-  width: 60px;
+#myStuff {
+  text-decoration: none;
+  color: yellow;
+  transition: 1s color;
+}
+
+#myStuff:hover {
+  color: #ffff;
+}
+
+#headingHobbie {
+  text-align: center;
+  font-family: "Comforter", cursive;
+  font-weight: 600;
+  font-size: 3rem;
+  color: yellow;
+}
+#listH {
+  text-align: center;
+  list-style: none;
+}
+
+#imgFooter {
+  width: 50px;
+}
+
+#headingContact {
+  text-align: center;
+  font-family: "Comforter", cursive;
+  font-weight: 600;
+  font-size: 3rem;
+  color: yellow;
+}
+
+#contactIcon {
+  width: 100px;
+  text-align: center;
 }
