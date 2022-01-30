@@ -27,16 +27,13 @@ li {
 }
 
 p {
-  color: #fff;
+  color: #ffff !important;
 }
 
 a {
+  color: #ffff !important;
   text-decoration: none;
   transition: 1s color;
-}
-
-a:hover {
-  color: red;
 }
 
 #avatarPic {
@@ -111,11 +108,10 @@ button {
   #footerLinks{
     font-size: 15px !important;
     text-align: center !important;
-    color: #ffff
+    color: #ffff !important;
   }
 
   a{
-    color: #ffff;
-    text-decoration: none;
+    color: #ffff !important;
   }
 }
