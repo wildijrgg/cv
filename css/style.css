@@ -84,7 +84,16 @@ button {
 }
 
 @media (max-width: 600px) {
-  h1{
+  html,
+  body {
+    font-family: "Nunito", sans-serif;
+    background-image: url("../img/backimg.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  h1 {
     font-size: 30px !important;
   }
   img {
@@ -92,7 +101,7 @@ button {
   }
 
   #backImg {
-    width: 40px !important;
+    width: 30px !important;
   }
 
   #contactImg {
