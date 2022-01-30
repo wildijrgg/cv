@@ -59,15 +59,15 @@ hr {
   font-size: 3rem;
 }
 
-#contactImg{
+#contactImg {
   width: 100px;
 }
 
-#contactForm{
+#contactForm {
   color: #fff;
 }
 
-#labelFooter{
+#labelFooter {
   position: fixed;
   left: 0;
   bottom: 0;
@@ -75,6 +75,23 @@ hr {
   text-align: center;
 }
 
-#backImg{
+#backImg {
   width: 50px;
+}
+
+@media (max-width: 600px) {
+  h1{
+    font-size: 30px !important;
+  }
+  img {
+    width: 100px !important;
+  }
+
+  #backImg {
+    width: 50px !important;
+  }
+
+  #contactImg {
+    width: 50px !important;
+  }
 }
